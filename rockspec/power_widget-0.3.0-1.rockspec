@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "power_widget"
-version = "0.2.1-1"
--- LuaDist source
+version = "0.3.0-1"
 source = {
-  tag = "0.2.1-1",
-  url = "git://github.com/LuaDist-testing/power_widget.git"
+   url = "git://github.com/stefano-m/awesome-power_widget",
+   tag = "v0.3.0"
 }
--- Original source
--- source = {
---    url = "git://github.com/stefano-m/awesome-power_widget",
---    tag = "v0.2.1"
--- }
 description = {
    summary = "A Power widget for the Awesome Window Manager",
    detailed = [[
@@ -25,7 +17,7 @@ supported_platforms = {
 }
 dependencies = {
    "lua >= 5.1",
-   "upower_dbus >= 0.2.0, < 0.3"
+   "upower_dbus >= 0.3.0, < 0.4"
 }
 build = {
    type = "builtin",
