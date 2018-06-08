@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "power_widget"
-version = "0.3.1-1"
+version = "0.3.2-1"
 -- LuaDist source
 source = {
-  tag = "0.3.1-1",
+  tag = "0.3.2-1",
   url = "git://github.com/LuaDist-testing/power_widget.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/stefano-m/awesome-power_widget",
---    tag = "v0.3.1"
+--    tag = "v0.3.2"
 -- }
 description = {
    summary = "A Power widget for the Awesome Window Manager",
